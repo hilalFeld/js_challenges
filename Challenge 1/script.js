@@ -83,3 +83,34 @@ var string2 = "World!";
 var result;
 
 console.log((result = string1 + string2));
+
+var num = 3;
+var name = "Sam";
+var name1 = ["Sam"];
+var num2 = 3;
+var num3 = "3";
+var num4 = 4;
+console.log(num === name);
+console.log(num === num2);
+
+console.log(num !== num2);
+console.log(num2 !== name);
+
+console.log(num == num3);
+console.log(name == name1);
+
+console.log(num != num3);
+console.log(name != num);
+
+console.log(num > num2);
+console.log(num4 > num3);
+console.log(num4 > num2);
+
+console.log(num >= num2);
+console.log(num >= num3);
+
+console.log(num3 < num);
+console.log(num4 < num);
+
+console.log(num <= num3);
+console.log(num <= num4);
