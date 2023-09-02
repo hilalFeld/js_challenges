@@ -1,1 +1,2 @@
-// step 1
+var name = "Hilal";
+alert(name);
