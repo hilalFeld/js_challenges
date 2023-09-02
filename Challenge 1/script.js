@@ -77,3 +77,9 @@ console.log(
   "The (tryThisAlso) variable uses the backticks. Instead of ${counter},\
    a ${2 + 3} code used, where it's result is 5 on the console as you see."
 );
+
+var string1 = "Hello ";
+var string2 = "World!";
+var result;
+
+console.log((result = string1 + string2));
