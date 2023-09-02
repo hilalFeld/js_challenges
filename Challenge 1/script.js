@@ -114,3 +114,21 @@ console.log(num4 < num);
 
 console.log(num <= num3);
 console.log(num <= num4);
+
+var result0 = 5 + 3 * 2;
+console.log(result0);
+
+var result1 = 10 / 2 + 3;
+var result2 = 10 / (2 + 3);
+
+console.log(result1, result2);
+
+console.log(
+  "The result of result1 is 8, since the priority between division and addition\
+   goes for division, so 10 / 2 is 5 add 3 the result will be 8."
+);
+
+console.log(
+  "The result of result2 is 2, based on the priorities, the paranthesis has\
+   higher priority than the division so (2 + 3) is 5 then 10 / 5 is 2."
+);
