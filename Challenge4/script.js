@@ -23,3 +23,25 @@ const fullInfo = { ...personalInfo, ...additionalInfo };
 const [firstNum, secondNum, thirdNum] = fiveNumbers;
 
 const { name, location, nationality } = personalInfo;
+
+const {
+  contactInfo: { phoneNo, email },
+} = personalInfo;
+
+const [firstIndex, secondIndex, ...restOfNumbers] = fiveNumbers;
+
+const person1 = {
+  age: 23,
+  height: 178,
+  weight: 78,
+};
+
+const person2 = {
+  name: "John",
+  occupation: "Developer",
+  age: 29,
+};
+
+const person12 = { ...person1, ...person2 };
+
+console.log(person12);
