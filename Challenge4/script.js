@@ -8,3 +8,14 @@ const personalInfo = {
   nationality: "British",
 };
 
+const nextThreeNumbers = [6, 7, 8];
+
+const allNumbers = [...fiveNumbers, ...nextThreeNumbers];
+
+const additionalInfo = {
+  occupation: "Product engineer",
+  hobby: "Golf",
+  education: "Ms degree",
+};
+
+const fullInfo = { ...personalInfo, ...additionalInfo };
