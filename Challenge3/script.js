@@ -75,4 +75,32 @@ const squareNumber = (number) => {
 
 squareNumber(20);
 
-console.log(localVar);
+//console.log(localVar);
+
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
+}
+
+var num = 10;
+while (num >= 1) {
+  console.log(num);
+  num--;
+}
+
+var number = 1;
+do {
+  if (number % 2 === 0) {
+    console.log(number);
+  }
+  number++;
+} while (number <= 10);
+
+const fruits = ["banana", "pineapple", "mango", "cherries", "avocado"];
+var i = 0;
+do {
+  if (fruits[i].length > 5) {
+    console.log(fruits[i]);
+  }
+  i++;
+} while (i < fruits.length);
+
