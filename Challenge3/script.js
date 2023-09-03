@@ -64,3 +64,15 @@ console.log(compute(1, 3, "add"));
 console.log(compute(1, 3, "subtract"));
 console.log(compute(1, 3, "multiply"));
 console.log(compute(1, 3, "divide"));
+
+var globalVar = "global";
+
+const squareNumber = (number) => {
+  number * number;
+  console.log(globalVar);
+  var localVar = "local";
+};
+
+squareNumber(20);
+
+console.log(localVar);
