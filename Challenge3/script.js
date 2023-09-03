@@ -104,3 +104,27 @@ do {
   i++;
 } while (i < fruits.length);
 
+function processArray(array, fun) {
+  for (i in array) {
+    console.log(fun(array[i]));
+  }
+}
+
+const array = [1, 2, 3, 4, 5];
+const squareFun = (num) => {
+  return num * num;
+};
+
+processArray(array, squareFun);
+
+function multiplier(num) {
+  return function (num2) {
+    return num * num2;
+  };
+}
+
+const firstMultiplication = multiplier(5);
+const firstMultiplication1 = multiplier(10);
+
+console.log(firstMultiplication(2));
+console.log(firstMultiplication1(3));
